@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>TAPAS BANERJEE</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$('body').bind('cut copy paste', function (e) {
+		e.preventDefault();
+	})
+	$(".code").on("contextmenu", function(e) {
+	/* change the ".code" to "body" to disable all the part. otherwise it will disable only where class="code" will be mentioned in html body part. */
+		return false;
+	})
+})
+
+</script>
+    
+<style>
+#img { 
+  width: 100%;
+  height: auto;
+   padding:1px;
+   border:1px solid #021a40;  
+}
+</style>
+ <meta content='width=device-width, initial-scale=1' name='viewport'/>
+</head>
+<body style:"background-color:#f5f5f5;" background="body-bg3.png";
+color: #444;>
+	
+
+<body align="center">
+<h1>Tapas Banerjee</h1>
+<h2>My profile</h2>
+<h4>I am God of Banerjee Brahmin. I am professional enterpreneur. To contact me <a href="mailto:banerjeetapas100@gmail.com">email me</a> or <a href="tel:7278541900">call me.</a></h4>
+<h3>My Gallery</h3>
+<img src="tapas1.jpeg" id="img">
+<img src="tapas2.jpeg" id="img"><img src="tapas3.jpeg" id="img"><img src="tapas4.jpeg" id="img">
+
+
+<a href="#" class="previous">&laquo; Previous</a>
+<a href="#" class="next">Next &raquo;</a>
+
+<a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>
+</body>
+</html>
+ 
